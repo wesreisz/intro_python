@@ -1,4 +1,6 @@
 #simple input and output
-name = input("What's is your name? ")
+firstName = input("What's is your name? ")
+lastName = input("What's your last name " + firstName + "? ")
 
-print("Welcome " + name)
+print("Welcome " + firstName + " " + lastName)
+
