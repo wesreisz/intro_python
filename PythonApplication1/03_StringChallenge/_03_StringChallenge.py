@@ -20,3 +20,4 @@ letter = "e"
 letter = input("What letter would you like to count [{}]: ".format(letter)) or letter
 
 print(story.format(name,location.title(),thing,len(story),story.count(letter)))
+
