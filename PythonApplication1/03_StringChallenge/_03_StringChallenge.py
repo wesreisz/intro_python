@@ -11,8 +11,12 @@ length: {3:d}
 number of e's: {4:d}\n"""
 
 name = "Nantucket"
-girl = "Nan"
+name = input("Enter a location that ends with tucket [{}]: ".format(name)) or name
+location = "Nan"
+location = input("Enter the first part of the location minux the tucket [{}]: ".format(location)) or location
 thing = "bucket"
+thing = input("Enter something that rythms with tucket [{}]: ".format(thing)) or thing
 letter = "e"
+letter = input("What letter would you like to count [{}]: ".format(letter)) or letter
 
-print(story.format(name,girl,thing,len(story),story.count(letter)))
+print(story.format(name,location.title(),thing,len(story),story.count(letter)))
