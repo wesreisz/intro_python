@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication1", "PythonApplication1\PythonApplication1.pyproj", "{969F9BEF-9BE0-4FAB-AB3C-981F2ECDD133}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "03_StringChallenge", "03_StringChallenge\03_StringChallenge.pyproj", "{3CE6DC4C-7AA2-44B0-988C-B3C4F92BFB44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{969F9BEF-9BE0-4FAB-AB3C-981F2ECDD133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{969F9BEF-9BE0-4FAB-AB3C-981F2ECDD133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE6DC4C-7AA2-44B0-988C-B3C4F92BFB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE6DC4C-7AA2-44B0-988C-B3C4F92BFB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,3 +8,10 @@ message = "Hello World"
 print(message.upper())
 print(message.lower())
 print(message.swapcase())
+
+#parsing strings
+message = "Hello World"
+print(message.find('Hello')) #same as indexOf
+print(message.count('o'))
+print(message.capitalize())
+print(message.replace('Hello','Hi'))
