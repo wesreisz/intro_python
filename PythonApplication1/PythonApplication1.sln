@@ -7,7 +7,7 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication1", "Pytho
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "03_StringChallenge", "03_StringChallenge\03_StringChallenge.pyproj", "{3CE6DC4C-7AA2-44B0-988C-B3C4F92BFB44}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "04_LoanPaymentChallenge.py", "04_LoanPaymentChallenge.py\04_LoanPaymentChallenge.py.pyproj", "{CCBFF8F3-6202-4181-B1A7-27CC7E6C956A}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "04_LoanPaymentChallenge", "04_LoanPaymentChallenge.py\04_LoanPaymentChallenge.pyproj", "{CCBFF8F3-6202-4181-B1A7-27CC7E6C956A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
