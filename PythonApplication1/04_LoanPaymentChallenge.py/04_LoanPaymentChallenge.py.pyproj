@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>969f9bef-9be0-4fab-ab3c-981f2ecdd133</ProjectGuid>
+    <ProjectGuid>ccbff8f3-6202-4181-b1a7-27cc7e6c956a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>AskUserForInput.py</StartupFile>
+    <StartupFile>_04_LoanPaymentChallenge.py.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonApplication1</Name>
-    <RootNamespace>PythonApplication1</RootNamespace>
+    <Name>04_LoanPaymentChallenge.py</Name>
+    <RootNamespace>04_LoanPaymentChallenge.py</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,10 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AskUserForInput.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PythonApplication1.py" />
+    <Compile Include="_04_LoanPaymentChallenge.py.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

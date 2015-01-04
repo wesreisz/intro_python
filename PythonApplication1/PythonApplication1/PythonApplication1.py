@@ -1,17 +1,20 @@
-#simple input and output
-firstName = input("What's is your name? ")
-lastName = input("What's your last name " + firstName + "? ")
+title = 'Workspvae for 03 Storing Numbers'
 
-print("Welcome " + firstName + " " + lastName)
+exp = 5 ** 2
+print("Value is: %d" % exp)
 
-message = "Hello World"
-print(message.upper())
-print(message.lower())
-print(message.swapcase())
+area = 0
+height = 10
+width = 20
 
-#parsing strings
-message = "Hello World"
-print(message.find('Hello')) #same as indexOf
-print(message.count('o'))
-print(message.capitalize())
-print(message.replace('Hello','Hi'))
+area = width * height / 2
+
+print("Old Way")
+print("The area of the rectangle is %.2f" % area)
+print("justified it is: %6d" % 42)
+print("justified and padded it is: %06d" % 42)
+
+print("New Way")
+print("The area of the rectangle is {:f}".format(area))
+print("The area of the rectangle is {0:d}".format(42))
+
