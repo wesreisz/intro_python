@@ -1,20 +1,17 @@
-title = 'Workspvae for 03 Storing Numbers'
+import datetime
 
-exp = 5 ** 2
-print("Value is: %d" % exp)
+currentDate = datetime.date.today()
+print(currentDate)
+print("Month: " + str(currentDate.month))
+print("Year: " + str(currentDate.year))
+print("Day: " + str(currentDate.day))
 
-area = 0
-height = 10
-width = 20
+print(currentDate.strftime('%d %b, %Y'))
 
-area = width * height / 2
 
-print("Old Way")
-print("The area of the rectangle is %.2f" % area)
-print("justified it is: %6d" % 42)
-print("justified and padded it is: %06d" % 42)
+userInput = input("Please input your birthdate (mm/dd/YYYY): ")
+birthdate = datetime.datetime.strptime(userInput,"%m/%d/%Y").date()
+print(birthdate)
 
-print("New Way")
-print("The area of the rectangle is {:f}".format(area))
-print("The area of the rectangle is {0:d}".format(42))
-
+days = birthdate - currentDate
+print("Days: " + str(days))

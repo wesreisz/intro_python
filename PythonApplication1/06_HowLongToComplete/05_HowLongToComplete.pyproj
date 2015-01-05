@@ -3,15 +3,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>969f9bef-9be0-4fab-ab3c-981f2ecdd133</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApplication1.py</StartupFile>
+    <ProjectGuid>f3fd62b2-d59d-44b3-8cfa-b7f6e83ff3af</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>HowLongToComplete.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonApplication1</Name>
-    <RootNamespace>PythonApplication1</RootNamespace>
+    <Name>05_HowLongToComplete</Name>
+    <RootNamespace>06_HowLongToComplete</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,10 +23,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AskUserForInput.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PythonApplication1.py" />
+    <Compile Include="HowLongToComplete.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
