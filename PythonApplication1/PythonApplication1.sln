@@ -7,11 +7,11 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication1", "Pytho
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "03_StringChallenge", "03_StringChallenge\03_StringChallenge.pyproj", "{3CE6DC4C-7AA2-44B0-988C-B3C4F92BFB44}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "04_LoanPaymentChallenge", "04_LoanPaymentChallenge.py\04_LoanPaymentChallenge.pyproj", "{CCBFF8F3-6202-4181-B1A7-27CC7E6C956A}"
-EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "06_CalculateShippingCharges", "06_CalculateShippingCharges\06_CalculateShippingCharges.pyproj", "{93A7BCBD-D0B2-42CC-8439-1E7A0DE7AE13}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "05_HowLongToComplete", "05_HowLongToComplete\05_HowLongToComplete.pyproj", "{F3FD62B2-D59D-44B3-8CFA-B7F6E83FF3AF}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "04_LoanPaymentChallenge", "04_LoanPaymentChallenge\04_LoanPaymentChallenge.pyproj", "{CCBFF8F3-6202-4181-B1A7-27CC7E6C956A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +23,12 @@ Global
 		{969F9BEF-9BE0-4FAB-AB3C-981F2ECDD133}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CE6DC4C-7AA2-44B0-988C-B3C4F92BFB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3CE6DC4C-7AA2-44B0-988C-B3C4F92BFB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CCBFF8F3-6202-4181-B1A7-27CC7E6C956A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CCBFF8F3-6202-4181-B1A7-27CC7E6C956A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93A7BCBD-D0B2-42CC-8439-1E7A0DE7AE13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{93A7BCBD-D0B2-42CC-8439-1E7A0DE7AE13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3FD62B2-D59D-44B3-8CFA-B7F6E83FF3AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F3FD62B2-D59D-44B3-8CFA-B7F6E83FF3AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCBFF8F3-6202-4181-B1A7-27CC7E6C956A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCBFF8F3-6202-4181-B1A7-27CC7E6C956A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
