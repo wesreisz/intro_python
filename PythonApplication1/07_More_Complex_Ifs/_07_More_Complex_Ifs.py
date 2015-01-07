@@ -1,12 +1,15 @@
+import os
+
 TITLE =  'Let\'s Calculate Your Shipping'
 print("-"*40)
 print("{:^40}\n".format(TITLE))
 print("-"*40)
 
 
-total = input("What is the total sale amount?")
-country = input("What is the Country? ")
+total = float(input("What is the total sale amount? "))
+country = input("What is the Country? ").upper()
 province = ""
+
 
 if "CANADA" == country :
     province = input("What is the Province? ").upper()
@@ -21,10 +24,11 @@ elif "US" == country :
     province = input("What is your state? ").upper()
 else :
     print("Sorry, we don't ship to {0}".format(country))
-    sys.exit(0)
+    input("Press enter to exit")
+    os._exit(1)
 
 print("Thank you for shipping your order with us")
-print("Your order will cost ${0:.2f} and will be shipped to {1}, {2}".format(total,country,province))
+print("Your order will cost ${0:.2f} and will be shipped to {1} {2}".format(total,province,country))
 
 
 

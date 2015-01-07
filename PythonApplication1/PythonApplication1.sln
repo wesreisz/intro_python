@@ -13,6 +13,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "05_HowLongToComplete", "05_
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "04_LoanPaymentChallenge", "04_LoanPaymentChallenge\04_LoanPaymentChallenge.pyproj", "{CCBFF8F3-6202-4181-B1A7-27CC7E6C956A}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "07_More_Complex_Ifs", "07_More_Complex_Ifs\07_More_Complex_Ifs.pyproj", "{E2E97D3E-9641-4B2D-892E-F1A24243B1E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,8 @@ Global
 		{F3FD62B2-D59D-44B3-8CFA-B7F6E83FF3AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCBFF8F3-6202-4181-B1A7-27CC7E6C956A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CCBFF8F3-6202-4181-B1A7-27CC7E6C956A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E97D3E-9641-4B2D-892E-F1A24243B1E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E97D3E-9641-4B2D-892E-F1A24243B1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
