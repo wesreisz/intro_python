@@ -13,7 +13,7 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "05_HowLongToComplete", "05_
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "04_LoanPaymentChallenge", "04_LoanPaymentChallenge\04_LoanPaymentChallenge.pyproj", "{CCBFF8F3-6202-4181-B1A7-27CC7E6C956A}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "07_More_Complex_Ifs", "07_More_Complex_Ifs\07_More_Complex_Ifs.pyproj", "{E2E97D3E-9641-4B2D-892E-F1A24243B1E2}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "07_MoreComplexIfs", "07_MoreComplexeIfs\07_MoreComplexIfs.pyproj", "{E2E97D3E-9641-4B2D-892E-F1A24243B1E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
