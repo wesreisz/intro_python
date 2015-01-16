@@ -17,6 +17,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "07_MoreComplexIfs", "07_Mor
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "08_TurtleShapes", "08_TurtleShapes\08_TurtleShapes.pyproj", "{35B860D8-B618-4145-B793-A3598EF363CE}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "09_EtchASchetch", "09_EtchASchetch\09_EtchASchetch.pyproj", "{343476E8-9364-4E5D-B388-22087005F917}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,8 @@ Global
 		{E2E97D3E-9641-4B2D-892E-F1A24243B1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35B860D8-B618-4145-B793-A3598EF363CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{35B860D8-B618-4145-B793-A3598EF363CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343476E8-9364-4E5D-B388-22087005F917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343476E8-9364-4E5D-B388-22087005F917}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
