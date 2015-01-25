@@ -25,6 +25,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "11_WorkingWithFiles", "11_W
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "R12_ReadGuestList", "R12_ReadGuestList\R12_ReadGuestList.pyproj", "{10452E78-AE14-4894-A6BE-CA62A9B38CA3}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "13_SimpleFunctions", "13_SimpleFunctions\13_SimpleFunctions.pyproj", "{0E29E24B-8F4B-4BCB-989C-C4148F283DB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,8 @@ Global
 		{6A8CED04-3D3A-4E3B-8CB9-DF39A73595CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10452E78-AE14-4894-A6BE-CA62A9B38CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{10452E78-AE14-4894-A6BE-CA62A9B38CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E29E24B-8F4B-4BCB-989C-C4148F283DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E29E24B-8F4B-4BCB-989C-C4148F283DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
